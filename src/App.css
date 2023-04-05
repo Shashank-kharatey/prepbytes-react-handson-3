@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,69 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(yellow,red,black);
+  
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+h1{
+  color: white;
+}
+form{
+  text-align: center;
+}
+input{
+  text-align: center;
+  font-size: 1.5em;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 2em;
+  border: 0px;
+}
+label{
+  font-size: 2rem;
+}
+#btn{
+  border: 0px;
+  margin: 1rem;
+  padding: 0.3em;
+  font-size: 1.5em;
+  border-radius: 2em;
+  background-color: blue;
+  color: white;
+}
+#btn:hover{background-color: gold; color:blue}
+#formdiv{
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 3em 0.4em;
+  background-color: blue;
+  color: white;
+  margin: auto;
+  margin-top: 4rem;
+  border: 0px;
+  text-align: center;
+}
+#flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#heading2{
+  color: darkblue;
+}
+.flexbox{
+  text-align: center;
+  width: 20rem;
+  padding: 1em;
+  margin: 1rem;
+  background-color: blue;
+  border-radius: 2rem 0.4rem ;
+  color: white;
+  font-size: 1.5em;
 }
